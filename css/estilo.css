@@ -1,0 +1,74 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    text-decoration: none;
+    color: currentColor;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+
+.grupo-login{
+    width: 40%;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+#logo{
+    margin: 10px auto;
+    margin-left: 151px;
+}
+.foto-perfil{
+    display: flex;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+.foto-perfil img{
+    height: 6rem;
+}
+
+.instagram-login{
+    width: 235px;
+    background: #0095f6;
+    color: #fff;
+    padding: 7px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.instagram-logout{
+    color: #0095f6;
+    margin: 10px auto;
+}
+
+.grupo-alterar{
+    width: 40%;
+    background: #fff;
+    margin: 15px auto;
+    border: 1px solid lightgray;
+}
+p{
+    padding-top: 1rem;
+}
+
+.download{
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
