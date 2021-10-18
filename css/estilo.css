@@ -26,16 +26,18 @@ body{
 }
 #logo{
     margin: 10px auto;
-    margin-left: 151px;
+}
+#logo img{
+    margin: 0 auto;
 }
 .foto-perfil{
     display: flex;
     border-radius: 40px;
     margin: 0 auto;
     margin-bottom: 30px;
-    margin-left: 200px;
 }
 .foto-perfil img{
+    margin: 0 auto;
     height: 6rem;
 }
 
